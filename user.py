@@ -153,7 +153,7 @@ def enter_data(qt,descz,pricez,totalz):
     conn.execute(table_create_query)
     
     # Insert Data
-    data_insert_query = '''INSERT INTO Student_Data (qt, descz, pricez, 
+    data_insert_query = '''INSERT INTO bike_data (qt, descz, pricez, 
     totalz) VALUES 
     (?, ?, ?,?)'''
     data_insert_tuple = (qt,
